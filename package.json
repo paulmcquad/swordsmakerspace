@@ -1,0 +1,23 @@
+{
+  "name": "swordsmakerspace",
+  "version": "0.1.0",
+  "description": "Swordsmakerspace - Developer Website",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulmcquad/swordsmakerspace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/paulmcquad/swordsmakerspace/issues"
+  },
+  "homepage": "https://github.com/paulmcquad/swordsmakerspace#readme",
+  "dependencies": {
+    "tailwindcss": "*"
+  }
+}

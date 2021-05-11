@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+s        crossorigin="anonymous" />
+</head>
+<body>
+
+        <header>
+            <!-- nav menu -->
+            <div class="container mx-auto p-5 rounded-xl">
+                <nav class="flex-row md:justify-between">
+                    <div class="flex flex-row justify-between">
+                        <img src="../img/swordsmakerspace.jpg" alt="swordsmakerspace" width="15%" class="rounded-xl">
+
+                        <p id="hamburgerbtn" class="md:hidden">
+                            <i class="fas fa-bars"></i>
+                        </p>
+                    </div>
+
+                    <ul class="hidden md:flex md:flex-row text-grey" id="mobileMenu">
+                        <li class="pr-5"><a href="https://www.google.com/">Services</a></li>
+                        <li class="pr-5"><a>Porfolio</a></li>
+                        <li class="pr-5"><a>About</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+
+
+
+<style>
+    .active {
+        display: block;
+    }
+</style>
+
+<script>
+    // Navbar Hamburger Toogle Script //
+    let hamburger = document.getElementById('hamburgerbtn');
+    let mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', function () {
+        mobileMenu.classList.toggle('active');
+    });
+</script>
+
+    </body>
+</html>
